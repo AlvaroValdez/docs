@@ -1,0 +1,112 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Alyto",
+  "logo": {
+    "dark": "/images/logo/logo-dark.png",
+    "light": "/images/logo/logo-light.png"
+  },
+  "favicon": "/images/logo/favicon.png",
+  "colors": {
+    "primary": "#1D3461",
+    "light": "#C4CBD8",
+    "dark": "#0D1F3C",
+    "anchors": {
+      "from": "#1D3461",
+      "to": "#C4CBD8"
+    }
+  },
+  "topbarLinks": [
+    {
+      "name": "Soporte",
+      "url": "https://wa.me/56988321490"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Abrir Alyto",
+    "url": "https://alyto.app"
+  },
+  "tabs": [
+    {
+      "name": "Manual de usuario",
+      "url": "/"
+    },
+    {
+      "name": "Países disponibles",
+      "url": "/pagos-internacionales/paises-disponibles"
+    }
+  ],
+  "anchors": [
+    {
+      "name": "WhatsApp Soporte",
+      "icon": "whatsapp",
+      "url": "https://wa.me/56988321490"
+    },
+    {
+      "name": "Email",
+      "icon": "envelope",
+      "url": "mailto:soporte@alyto.app"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Inicio",
+      "pages": ["introduccion"]
+    },
+    {
+      "group": "Primeros pasos",
+      "pages": [
+        "primeros-pasos/registro",
+        "primeros-pasos/verificacion-kyc",
+        "primeros-pasos/primer-deposito"
+      ]
+    },
+    {
+      "group": "Wallet BOB",
+      "pages": [
+        "wallet-bob/que-es-la-wallet-bob",
+        "wallet-bob/cargar-saldo",
+        "wallet-bob/enviar-bob",
+        "wallet-bob/retirar-bob",
+        "wallet-bob/pagos-qr"
+      ]
+    },
+    {
+      "group": "Wallet USDC",
+      "pages": [
+        "wallet-usdc/que-es-usdc",
+        "wallet-usdc/depositar-usdc",
+        "wallet-usdc/convertir-bob-a-usdc"
+      ]
+    },
+    {
+      "group": "Pagos internacionales",
+      "pages": [
+        "pagos-internacionales/como-funciona",
+        "pagos-internacionales/paises-disponibles",
+        "pagos-internacionales/tiempos-y-fees"
+      ]
+    },
+    {
+      "group": "Seguridad y cuenta",
+      "pages": [
+        "seguridad/perfil-y-configuracion",
+        "seguridad/dispositivos-y-sesiones",
+        "seguridad/reclamos-prili"
+      ]
+    },
+    {
+      "group": "Ayuda",
+      "pages": ["faq"]
+    }
+  ],
+  "footerSocials": {
+    "website": "https://alyto.app"
+  },
+  "feedback": {
+    "thumbsRating": true,
+    "suggestEdit": false
+  },
+  "search": {
+    "prompt": "Busca en el manual de Alyto..."
+  }
+}

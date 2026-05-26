@@ -1,0 +1,55 @@
+---
+title: "Pagos con QR"
+description: "Cobra y paga al instante escaneando un código QR Alyto"
+---
+
+## ¿Qué es el QR Alyto?
+
+Cada usuario tiene su propio **QR de cobro personal**. Al mostrarlo, cualquier otro usuario Alyto puede escanearlo y enviarte BOB al instante.
+
+## Tu QR de cobro
+
+<Steps>
+  <Step title="Wallet BOB → Botón QR">
+    Toca el botón **QR** en la tarjeta de saldo BOB.
+  </Step>
+  <Step title="Se abre tu QR">
+    Aparece un panel con tu código QR personal listo para mostrar o compartir.
+  </Step>
+  <Step title="El pagador lo escanea">
+    La otra persona escanea tu QR desde **Enviar → Escanear QR**.
+  </Step>
+</Steps>
+
+<Note>
+  El QR P2P tiene una validez de **5 minutos** por seguridad. Si expira, ciérralo y ábrelo de nuevo para generar uno nuevo.
+</Note>
+
+## Escanear el QR de otro usuario
+
+Para pagar escaneando el QR de alguien más:
+
+<Steps>
+  <Step title="Wallet BOB → Enviar → Escanear QR">
+    Desde la pantalla de envío, selecciona la pestaña **Escanear QR**.
+  </Step>
+  <Step title="Activa la cámara">
+    Toca **Activar cámara** y enfoca el QR del destinatario.
+  </Step>
+  <Step title="Revisa los detalles">
+    La app muestra el nombre del destinatario y el monto (si el QR lo incluye).
+  </Step>
+  <Step title="Confirma el pago">
+    Toca **Confirmar** para enviar el dinero al instante.
+  </Step>
+</Steps>
+
+## ¿Puedo subir una imagen del QR en lugar de escanearlo?
+
+Sí. Si tienes una captura del QR guardada, toca **Galería** en la pantalla de escaneo para seleccionarla.
+
+## Seguridad del QR
+
+- Cada QR está firmado digitalmente por Alyto (HMAC-SHA256)
+- No es posible falsificar ni modificar un QR Alyto
+- Si el QR no es reconocido, la operación se rechaza automáticamente

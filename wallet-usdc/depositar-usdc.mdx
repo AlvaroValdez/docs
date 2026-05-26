@@ -1,0 +1,51 @@
+---
+title: "Depositar USDC"
+description: "Cómo enviar USDC a tu wallet Alyto desde otra wallet Stellar"
+---
+
+## Antes de depositar
+
+Necesitas tener USDC en otra wallet Stellar (ej. Lobstr, StellarX, un exchange como Bitso o Binance con retiro Stellar).
+
+## Cómo obtener tu dirección de depósito
+
+<Steps>
+  <Step title="Wallet USDC → Depositar">
+    En la pestaña USDC, toca el botón **Depositar**.
+  </Step>
+  <Step title="Copia la dirección y el memo">
+    La app muestra:
+    - **Dirección Stellar** de AV Finance SRL
+    - **Tu memo único** (ej. `ALY-12345`)
+
+    Copia ambos con el botón de copia.
+  </Step>
+  <Step title="Envía desde tu wallet origen">
+    En tu otra wallet o exchange, ingresa:
+    - Dirección de destino (la dirección Stellar de Alyto)
+    - Asset: **USDC**
+    - Red: **Stellar**
+    - **Memo:** tu código único
+  </Step>
+</Steps>
+
+## Datos de depósito
+
+| Campo | Descripción |
+|-------|-------------|
+| Red | Stellar (no usar ERC-20 ni otras redes) |
+| Asset | USDC (USD Coin) |
+| Dirección | Visible en la app al tocar Depositar |
+| Memo | Tu código único — **obligatorio** |
+
+<Warning>
+  Solo acepta USDC en la red **Stellar**. No envíes USDC de Ethereum (ERC-20) ni de otras redes. Los fondos enviados a la red incorrecta pueden perderse permanentemente.
+</Warning>
+
+## Tiempo de acreditación
+
+Las transacciones Stellar se confirman en **3–5 segundos** en la blockchain, pero el equipo Alyto acredita el saldo manualmente en **1–2 horas hábiles** después de verificar el memo.
+
+<Note>
+  Puedes copiar tu memo desde la tarjeta USDC tocando el ícono de copia junto al número de memo, sin necesidad de abrir el modal de depósito.
+</Note>
