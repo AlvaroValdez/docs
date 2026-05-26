@@ -34,58 +34,65 @@
       "url": "mailto:soporte@alyto.app"
     }
   ],
-  "navigation": [
-    {
-      "group": "Inicio",
-      "pages": ["introduccion"]
-    },
-    {
-      "group": "Primeros pasos",
-      "pages": [
-        "primeros-pasos/registro",
-        "primeros-pasos/verificacion-kyc",
-        "primeros-pasos/primer-deposito"
-      ]
-    },
-    {
-      "group": "Wallet BOB",
-      "pages": [
-        "wallet-bob/que-es-la-wallet-bob",
-        "wallet-bob/cargar-saldo",
-        "wallet-bob/enviar-bob",
-        "wallet-bob/retirar-bob",
-        "wallet-bob/pagos-qr"
-      ]
-    },
-    {
-      "group": "Wallet USDC",
-      "pages": [
-        "wallet-usdc/que-es-usdc",
-        "wallet-usdc/depositar-usdc",
-        "wallet-usdc/convertir-bob-a-usdc"
-      ]
-    },
-    {
-      "group": "Pagos internacionales",
-      "pages": [
-        "pagos-internacionales/como-funciona",
-        "pagos-internacionales/paises-disponibles",
-        "pagos-internacionales/tiempos-y-fees"
-      ]
-    },
-    {
-      "group": "Seguridad y cuenta",
-      "pages": [
-        "seguridad/perfil-y-configuracion",
-        "seguridad/dispositivos-y-sesiones",
-        "seguridad/reclamos-prili"
-      ]
-    },
-    {
-      "group": "Ayuda",
-      "pages": ["faq"]
-    }
-  ],
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Manual de usuario",
+        "groups": [
+          {
+            "group": "Inicio",
+            "pages": ["introduccion"]
+          },
+          {
+            "group": "Primeros pasos",
+            "pages": [
+              "primeros-pasos/registro",
+              "primeros-pasos/verificacion-kyc",
+              "primeros-pasos/primer-deposito"
+            ]
+          },
+          {
+            "group": "Wallet BOB",
+            "pages": [
+              "wallet-bob/que-es-la-wallet-bob",
+              "wallet-bob/cargar-saldo",
+              "wallet-bob/enviar-bob",
+              "wallet-bob/retirar-bob",
+              "wallet-bob/pagos-qr"
+            ]
+          },
+          {
+            "group": "Wallet USDC",
+            "pages": [
+              "wallet-usdc/que-es-usdc",
+              "wallet-usdc/depositar-usdc",
+              "wallet-usdc/convertir-bob-a-usdc"
+            ]
+          },
+          {
+            "group": "Pagos internacionales",
+            "pages": [
+              "pagos-internacionales/como-funciona",
+              "pagos-internacionales/paises-disponibles",
+              "pagos-internacionales/tiempos-y-fees"
+            ]
+          },
+          {
+            "group": "Seguridad y cuenta",
+            "pages": [
+              "seguridad/perfil-y-configuracion",
+              "seguridad/dispositivos-y-sesiones",
+              "seguridad/reclamos-prili"
+            ]
+          },
+          {
+            "group": "Ayuda",
+            "pages": ["faq"]
+          }
+        ]
+      }
+    ]
+  },
   "feedback": {
     "thumbsRating": true
   }
