@@ -1,5 +1,5 @@
 {
-  "$schema": "https://mintlify.com/schema.json",
+  "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
   "name": "Alyto",
   "logo": {
@@ -10,11 +10,7 @@
   "colors": {
     "primary": "#1D3461",
     "light": "#C4CBD8",
-    "dark": "#0D1F3C",
-    "anchors": {
-      "from": "#1D3461",
-      "to": "#C4CBD8"
-    }
+    "dark": "#0D1F3C"
   },
   "topbarLinks": [
     {
@@ -26,16 +22,6 @@
     "name": "Abrir Alyto",
     "url": "https://alyto.app"
   },
-  "tabs": [
-    {
-      "name": "Manual de usuario",
-      "url": "/"
-    },
-    {
-      "name": "Países disponibles",
-      "url": "/pagos-internacionales/paises-disponibles"
-    }
-  ],
   "anchors": [
     {
       "name": "WhatsApp Soporte",
@@ -100,14 +86,7 @@
       "pages": ["faq"]
     }
   ],
-  "footerSocials": {
-    "website": "https://alyto.app"
-  },
   "feedback": {
-    "thumbsRating": true,
-    "suggestEdit": false
-  },
-  "search": {
-    "prompt": "Busca en el manual de Alyto..."
+    "thumbsRating": true
   }
 }
